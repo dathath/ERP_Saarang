@@ -376,23 +376,9 @@ def create_updates ():
         new_update = Update (comment_string = 'Guess What? ' + coord.get_profile ().name, author = coord)
         new_update.save ()
     print 'Coord updates - Created'
-
-# Create Core
-# create_test_data.create_user ('Webops', 'Cores', {'username' : 'me09b001', 'email' : '', 'password' : 'password'}, {'nickname' : 'IBM', 'name' : 'Siddharth', 'chennai_number' : '9999999999', 'summer_number' : '9999999999', 'summer_stay' : 'Bangalore', 'hostel' : 'Godavari', 'room_no' : '420'})
-
-# def create_tags (n = 3):
-#     """
-#     Create n gen tags.
-#     """
-#     for i in xrange (n):
-#         obj, is_created = Tag.objects.get_or_create (name = 'Tag ' + str (i))
-#         print 'Tag ', str (i), ' Created : ', is_created
-    
+  
 def import_events_junta (csv_file = '../Coords-Limited (Shaastra 2011).csv'):
     """
-
-
-
 
     BIG TODO!!!
 
